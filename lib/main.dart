@@ -14,11 +14,11 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.dark(),
+        // colorScheme: ColorScheme.dark(),
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      home: const SeatReservation(),
+      home: const Homepage(),
     );
   }
 }
